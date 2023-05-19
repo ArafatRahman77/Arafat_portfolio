@@ -14,9 +14,10 @@ h1{
 .half_width{
     width:50%;
     padding-left: 5%;
+    padding-right:5%;
 }
 .half_width img{
-    width:100%
+    width:80%
 }
 div a{
     text-decoration: none;
@@ -29,4 +30,33 @@ div a{
 .sec_a{
     background-image: url(images/top-banner.png);
     background-repeat: none;
+}
+.experience_div{
+    box-shadow: 10px 10px 20px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-left: 2%;
+    
+}
+.sec3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#seca{
+  border-left: 10px solid tomato;
+}
+#secb{
+    border-left: 10px solid blue;  
+}
+footer{
+    text-align: center;
+    background-image: linear-gradient(black,gray);
+    font-size: smaller;
+    color: white;
+    padding: 20px;
 }
